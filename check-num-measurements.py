@@ -12,7 +12,7 @@
   database='telegraf'
   port='8086'
   host='localhost' 
->>
+
   def os_system(command):
     process = Popen(command, stdout=PIPE, shell=True)
     while True:
